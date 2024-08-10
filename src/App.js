@@ -30,7 +30,7 @@ function App() {
       <div className='z-10'>
         <div className="relative">
           <div 
-            className="font-custom text-9xl md:text-[200px] leading-none animate-color"
+            className="font-custom text-9xl md:text-[250px] leading-none animate-color"
             style={{
               color: '#dc2626',
               textShadow: `
