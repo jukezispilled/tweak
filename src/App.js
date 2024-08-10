@@ -27,7 +27,7 @@ function App() {
               </svg>
             </a>
           </div>
-      <div className='z-10'>
+      <div className='z-10 -mt-[15%]'>
         <div className="relative">
           <div 
             className="font-custom text-9xl md:text-[250px] leading-none animate-color"
