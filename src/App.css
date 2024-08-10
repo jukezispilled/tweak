@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes colorPulse {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(30deg);
+  }
+}
+
+.animate-color {
+  animation: colorPulse 3s infinite;
+}

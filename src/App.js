@@ -14,8 +14,9 @@ function App() {
         backgroundRepeat: 'no-repeat',
       }}
     >
+      <div className='absolute inset-0 h-screen w-screen bg-black opacity-30'></div>
       <div className='absolute top-3 left-3 flex space-x-1 items-center z-[50]'>
-        <a href="https://x.com/" className='transition ease-in-out duration-150'>
+        <a href="https://x.com/tweakindog" className='transition ease-in-out duration-150'>
           <img src="Xlogo.jpg" className='size-12'></img>
         </a>
         <a href="https://t.me/" className='transition ease-in-out duration-150'>
@@ -25,8 +26,25 @@ function App() {
         </a>
       </div>
       <div className='z-10'>
-        <div className='text-red-600 font-custom text-9xl md:text-[200px] leading-none'>
-          Tweak
+        <div className="relative">
+          <div 
+            className="font-custom text-9xl md:text-[200px] leading-none animate-color"
+            style={{
+              color: '#dc2626',
+              textShadow: `
+                -1px -1px 0 #f97316,  
+                1px -1px 0 #f97316,
+                -1px 1px 0 #f97316,
+                1px 1px 0 #f97316,
+                2px 2px 0 #84cc16,
+                3px 3px 0 #84cc16,
+                4px 4px 0 #84cc16,
+                5px 5px 0 #84cc16
+              `
+            }}
+          >
+            Tweak
+          </div>
         </div>
         <p className='z-10 text-center text-white font-custom text-sm md:text-xl -mt-4'>
           CA: updating...
